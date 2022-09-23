@@ -1,0 +1,34 @@
+6. $ git add README.md
+Andrey@DESKTOP-TNABH1A MINGW64 ~/Desktop/Innowise/Git trainee/git-trainee/devops-task1 (master)
+$ git commit -m "Add README"
+[master (root-commit) f1fa03c] Add README
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+7. $ git add nginx.conf
+Andrey@DESKTOP-TNABH1A MINGW64 ~/Desktop/Innowise/Git trainee/git-trainee/devops-task1 (master)
+$ git commit -m "Add nginx.conf"
+[master 48fa202] Add nginx.conf
+ 1 file changed, 136 insertions(+)
+ create mode 100644 nginx.conf
+
+8. $ git log
+commit 48fa20205bf521c7eb1ffcde7f208291f2537062 (HEAD -> master)
+Author: andrei.kouchur <andrei.kouchur@innowise-group.com>
+Date:   Fri Sep 23 13:04:59 2022 +0300
+
+    Add nginx.conf
+
+commit f1fa03cad8df8d31aeadead3104abe9f29998c16
+Author: andrei.kouchur <andrei.kouchur@innowise-group.com>
+Date:   Fri Sep 23 13:03:51 2022 +0300
+
+    Add README
+
+9. $ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        task1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
